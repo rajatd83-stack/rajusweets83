@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raju Sweets Shop</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8f0;
+}
+
+header {
+    background: linear-gradient(45deg, orange, red);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu h2 {
+    text-align: center;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.item {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.item h3 {
+    margin: 10px 0;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.whatsapp {
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Raju Sweets Shop</h1>
+    <p>Fresh & Tasty Veg Snacks in Santipu</p>
+  Taste Of Bengal
+</header>
+
+<section class="menu">
+    <h2>🍽️ Our Menu</h2>
+
+    <div class="items">
+        <div class="item">
+            <h3>Porota (1kg)</h3>
+            <p class="price">₹140</p>
+        </div>
+
+        <div class="item">
+            <h3>Kochuri (10 pcs)</h3>
+            <p class="price">₹80</p>
+        </div>
+
+        <div class="item">
+            <h3>Singara (10 pcs)</h3>
+            <p class="price">₹80</p>
+        </div>
+
+        <div class="item">
+            <h3>Nimki (10 pcs)</h3>
+            <p class="price">₹70</p>
+        </div>
+
+        <div class="item">
+            <h3>Vegetable Chop (10 pcs)</h3>
+            <p class="price">₹80</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>📞 Order Now</h2>
+    <p>Call or WhatsApp us to order</p>
+
+    <!-- IMPORTANT: change number -->
+    <a class="whatsapp" href="https://wa.me/918597874173" target="_blank">
+        Order on WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>📍 Santipur, Nadia</p>
+    <p>© 2026 Raju Sweets Shop</p>
+</footer>
+
+</body>
+</html>
